@@ -60,11 +60,13 @@ graph LR
 
 ### The Three Levels
 
-| Approach | What It Is | Success Rate |
+| Approach | What It Is | Effectiveness |
 |----------|-----------|--------------|
-| **Vibe Coding** | "Just make it work" casual requests | 10% |
-| **Prompt Engineering** | Clever phrasing and wording tricks | 40% |
-| **Context Engineering** | Systematic context + validation | 90%+ |
+| **Vibe Coding** | "Just make it work" casual requests | Low - inconsistent results |
+| **Prompt Engineering** | Clever phrasing and wording tricks | Medium - limited by wording |
+| **Context Engineering** | Systematic context + validation | High - 10x better than prompts* |
+
+*Based on methodology comparison from context-engineering-intro repository
 
 ### Core Philosophy
 
@@ -103,7 +105,7 @@ graph TD
 |-----------|---------|----------|
 | **CLAUDE.md** | Project-wide AI rules | Code style, testing requirements, conventions |
 | **INITIAL.md** | Feature specification | Requirements, examples, docs, constraints |
-| **PRPs/** | Implementation blueprints | Step-by-step plans with validation gates |
+| **PRPs/** | Implementation blueprints | Product Requirement Prompt<br/>Step-by-step plans with validation gates |
 | **examples/** | Pattern library | Real code showing "the right way" |
 
 ### File Structure
@@ -264,6 +266,14 @@ flowchart LR
    - Token generation with 24hr expiry
    - Validation: Unit tests must pass
 
+## Validation Steps
+1. **Run Full Test Suite**: `pytest tests/ -v --cov`
+   - Target: 90% coverage minimum
+2. **Type Checking**: `mypy src/ --strict`
+3. **Linting**: `ruff check src/`
+4. **Integration Test**: Test complete auth flow end-to-end
+5. **Security Scan**: Check for common vulnerabilities
+
 ## Confidence: 9/10
 High confidence - clear examples, well-documented libraries
 ```
@@ -375,7 +385,7 @@ Validation: alembic check && pytest tests/test_models.py
 ✓ Integration tests pass: 8/8
 ✓ Coverage: 94%
 
-Feature complete in 8 minutes
+Feature complete in minutes, not hours
 ```
 
 ---

@@ -41,10 +41,10 @@ Should be at ~1:30 mark
    - Right side (Context): Four components working together
 
 2. **The three levels table**
-   - Vibe coding: 10% success (casual, no structure)
-   - Prompt engineering: 40% success (better wording, still limited)
-   - Context Engineering: 90%+ success (systematic approach)
-   - **Pause on these numbers** - let them sink in
+   - Vibe coding: Low effectiveness (casual, no structure)
+   - Prompt engineering: Medium effectiveness (better wording, still limited)
+   - Context Engineering: High effectiveness (10x better than prompts - systematic approach)
+   - **Pause and emphasize the 10x improvement** - let that sink in
 
 3. **Core philosophy**
    - "It's not just WHAT to build, but HOW to build it according to YOUR standards"
@@ -60,7 +60,7 @@ Mermaid diagram showing divergence, plus comparison table
 "Let me show you the actual architecture that makes this possible..."
 
 ### If You Get Lost - Core Message
-**"Context Engineering = systematic approach with 4 components: docs, examples, rules, validation. 90%+ success rate."**
+**"Context Engineering = systematic approach with 4 components: docs, examples, rules, validation. 10x better than prompt engineering."**
 
 ### Time Checkpoint
 Should be at ~3:30 mark
@@ -75,10 +75,10 @@ Should be at ~3:30 mark
 ### Key Points to Cover
 
 1. **Top diagram walkthrough** (30s)
-   - CLAUDE.md → Global rules (dark blue) - "Your project's constitution"
-   - INITIAL.md → Feature request (bright blue) - "What you want to build"
+   - CLAUDE.md → Global rules (dark gray) - "Your project's constitution"
+   - INITIAL.md → Feature request (blue) - "What you want to build"
    - PRPs → Implementation blueprints (green) - "How to build it"
-   - examples/ → Code patterns (red) - "What good looks like"
+   - examples/ → Code patterns (pink) - "What good looks like"
    - Flow to working implementation (gray)
 
 2. **Component table** (45s)
@@ -132,7 +132,7 @@ Should be at ~5:30 mark
    - "It runs tests, checks linting, validates functionality"
    - "If tests fail, it FIXES THE ISSUES AUTOMATICALLY"
    - "Loops until everything passes"
-   - "This is why Context Engineering has 90%+ success rate"
+   - "This is why Context Engineering is 10x more effective than prompt engineering"
 
 ### Visual Reference
 Flowchart with decision points and loops
@@ -300,8 +300,8 @@ Should be at ~14:00 mark
    - Walk through checkmarks
    - "All tests pass automatically"
    - "Coverage exceeded target"
-   - **Emphasize timing**: "Feature complete in 8 minutes"
-   - "From idea to tested, working code in under 15 minutes total"
+   - **Emphasize speed**: "Feature complete in minutes, not hours"
+   - "From idea to tested, working code - dramatically faster than traditional coding"
 
 ### Visual Reference
 Three-part example: INITIAL → PRP → Results
@@ -316,7 +316,7 @@ Three-part example: INITIAL → PRP → Results
 "Alright, let's wrap up and get you started..."
 
 ### If You Get Lost - Core Message
-**"Real example: specific INITIAL.md → detailed PRP → working code in 8 minutes. Context Engineering delivers."**
+**"Real example: specific INITIAL.md → detailed PRP → working code in minutes. Context Engineering delivers."**
 
 ### Time Checkpoint
 Should be at ~15:30 mark
