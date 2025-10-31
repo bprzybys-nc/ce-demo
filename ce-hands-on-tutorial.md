@@ -75,10 +75,10 @@ graph TD
     I -->|Pass| J["Correct Output"]
     I -->|Fail| H
 
-    style A fill:#E74C3C,stroke:#C0392B,color:#fff
-    style F fill:#27AE60,stroke:#229954,color:#fff
-    style J fill:#27AE60,stroke:#229954,color:#fff
-    style D fill:#E74C3C,stroke:#C0392B,color:#fff
+    style A fill:#EF4444,stroke:#DC2626,color:#fff
+    style F fill:#10B981,stroke:#059669,color:#fff
+    style J fill:#10B981,stroke:#059669,color:#fff
+    style D fill:#EF4444,stroke:#DC2626,color:#fff
 ```
 
 #### Exercise 3: Map the Analogy
