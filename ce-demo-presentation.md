@@ -49,13 +49,13 @@ graph LR
     D --> G["Rules"]
     D --> H["Validation"]
 
-    style A fill:#E74C3C,stroke:#C0392B,color:#fff
-    style C fill:#27AE60,stroke:#229954,color:#fff
-    style D fill:#3498DB,stroke:#2980B9,color:#fff
-    style E fill:#ECF0F1,stroke:#95A5A6
-    style F fill:#ECF0F1,stroke:#95A5A6
-    style G fill:#ECF0F1,stroke:#95A5A6
-    style H fill:#ECF0F1,stroke:#95A5A6
+    style A fill:#EC4899,stroke:#DB2777,color:#fff
+    style C fill:#10B981,stroke:#059669,color:#fff
+    style D fill:#3B82F6,stroke:#2563EB,color:#fff
+    style E fill:#F3F4F6,stroke:#6B7280
+    style F fill:#F3F4F6,stroke:#6B7280
+    style G fill:#F3F4F6,stroke:#6B7280
+    style H fill:#F3F4F6,stroke:#6B7280
 ```
 
 ### The Three Levels
@@ -90,11 +90,11 @@ graph TD
     D -->|"Shows Patterns"| C
     C -->|"Guides Execution"| E["Working Implementation"]
 
-    style A fill:#2C3E50,stroke:#1A252F,color:#fff
-    style B fill:#3498DB,stroke:#2980B9,color:#fff
-    style C fill:#27AE60,stroke:#229954,color:#fff
-    style D fill:#E74C3C,stroke:#C0392B,color:#fff
-    style E fill:#95A5A6,stroke:#7F8C8D,color:#fff
+    style A fill:#1F2937,stroke:#111827,color:#fff
+    style B fill:#3B82F6,stroke:#2563EB,color:#fff
+    style C fill:#10B981,stroke:#059669,color:#fff
+    style D fill:#EC4899,stroke:#DB2777,color:#fff
+    style E fill:#6B7280,stroke:#4B5563,color:#fff
 ```
 
 ### Component Breakdown
@@ -149,15 +149,15 @@ flowchart TD
 
     Validate -->|Yes| Done["✓ Working Feature"]
 
-    style Start fill:#3498DB,stroke:#2980B9,color:#fff
-    style Research fill:#3498DB,stroke:#2980B9,color:#fff
-    style PRP fill:#27AE60,stroke:#229954,color:#fff
-    style Execute fill:#3498DB,stroke:#2980B9,color:#fff
-    style Done fill:#27AE60,stroke:#229954,color:#fff
-    style Fix fill:#E74C3C,stroke:#C0392B,color:#fff
-    style Validate fill:#95A5A6,stroke:#7F8C8D
-    style Analyze fill:#ECF0F1,stroke:#95A5A6
-    style Implement fill:#ECF0F1,stroke:#95A5A6
+    style Start fill:#3B82F6,stroke:#2563EB,color:#fff
+    style Research fill:#3B82F6,stroke:#2563EB,color:#fff
+    style PRP fill:#10B981,stroke:#059669,color:#fff
+    style Execute fill:#3B82F6,stroke:#2563EB,color:#fff
+    style Done fill:#10B981,stroke:#059669,color:#fff
+    style Fix fill:#EF4444,stroke:#DC2626,color:#fff
+    style Validate fill:#6B7280,stroke:#4B5563
+    style Analyze fill:#F3F4F6,stroke:#6B7280
+    style Implement fill:#F3F4F6,stroke:#6B7280
 ```
 
 ### The Magic of Self-Correction
@@ -231,14 +231,14 @@ flowchart LR
     G --> J["Test Requirements"]
     G --> K["Confidence Score"]
 
-    style A fill:#3498DB,stroke:#2980B9,color:#fff
-    style B fill:#2C3E50,stroke:#1A252F,color:#fff
-    style F fill:#2C3E50,stroke:#1A252F,color:#fff
-    style G fill:#27AE60,stroke:#229954,color:#fff
-    style H fill:#ECF0F1,stroke:#95A5A6
-    style I fill:#ECF0F1,stroke:#95A5A6
-    style J fill:#ECF0F1,stroke:#95A5A6
-    style K fill:#ECF0F1,stroke:#95A5A6
+    style A fill:#3B82F6,stroke:#2563EB,color:#fff
+    style B fill:#1F2937,stroke:#111827,color:#fff
+    style F fill:#1F2937,stroke:#111827,color:#fff
+    style G fill:#10B981,stroke:#059669,color:#fff
+    style H fill:#F3F4F6,stroke:#6B7280
+    style I fill:#F3F4F6,stroke:#6B7280
+    style J fill:#F3F4F6,stroke:#6B7280
+    style K fill:#F3F4F6,stroke:#6B7280
 ```
 
 ### PRP Output Structure
@@ -296,15 +296,15 @@ graph TD
     D --> H["Broken code ships"]
     E --> I["Inconsistent style"]
 
-    style A fill:#E74C3C,stroke:#C0392B,color:#fff
-    style B fill:#ECF0F1,stroke:#95A5A6
-    style C fill:#ECF0F1,stroke:#95A5A6
-    style D fill:#ECF0F1,stroke:#95A5A6
-    style E fill:#ECF0F1,stroke:#95A5A6
-    style F fill:#95A5A6,stroke:#7F8C8D,color:#fff
-    style G fill:#95A5A6,stroke:#7F8C8D,color:#fff
-    style H fill:#95A5A6,stroke:#7F8C8D,color:#fff
-    style I fill:#95A5A6,stroke:#7F8C8D,color:#fff
+    style A fill:#EF4444,stroke:#DC2626,color:#fff
+    style B fill:#F3F4F6,stroke:#6B7280
+    style C fill:#F3F4F6,stroke:#6B7280
+    style D fill:#F3F4F6,stroke:#6B7280
+    style E fill:#F3F4F6,stroke:#6B7280
+    style F fill:#6B7280,stroke:#4B5563,color:#fff
+    style G fill:#6B7280,stroke:#4B5563,color:#fff
+    style H fill:#6B7280,stroke:#4B5563,color:#fff
+    style I fill:#6B7280,stroke:#4B5563,color:#fff
 ```
 
 ### The Power Law
@@ -410,11 +410,11 @@ graph LR
     C --> D["Faster Development"]
     D --> E["More Time for<br/>Creative Work"]
 
-    style A fill:#3498DB,stroke:#2980B9,color:#fff
-    style B fill:#27AE60,stroke:#229954,color:#fff
-    style C fill:#27AE60,stroke:#229954,color:#fff
-    style D fill:#27AE60,stroke:#229954,color:#fff
-    style E fill:#2C3E50,stroke:#1A252F,color:#fff
+    style A fill:#3B82F6,stroke:#2563EB,color:#fff
+    style B fill:#10B981,stroke:#059669,color:#fff
+    style C fill:#10B981,stroke:#059669,color:#fff
+    style D fill:#10B981,stroke:#059669,color:#fff
+    style E fill:#8B5CF6,stroke:#7C3AED,color:#fff
 ```
 
 > **"Context Engineering is 10x better than prompt engineering and 100x better than vibe coding"**
@@ -429,10 +429,13 @@ graph LR
 
 ### Appendix: Color Reference
 
-All Mermaid diagrams use this professional palette:
-- Primary: `#2C3E50` (dark slate)
-- Secondary: `#3498DB` (bright blue)
-- Accent: `#E74C3C` (coral red)
-- Success: `#27AE60` (emerald green)
-- Neutral: `#95A5A6` (gray)
-- Background: `#ECF0F1` (light gray)
+All Mermaid diagrams use this modern Tailwind-inspired palette:
+
+- Primary Blue: `#3B82F6` (blue-500)
+- Purple: `#8B5CF6` (violet-500)
+- Pink: `#EC4899` (pink-500)
+- Success Green: `#10B981` (emerald-500)
+- Error Red: `#EF4444` (red-500)
+- Dark Gray: `#1F2937` (gray-800)
+- Neutral Gray: `#6B7280` (gray-500)
+- Light Background: `#F3F4F6` (gray-100)
