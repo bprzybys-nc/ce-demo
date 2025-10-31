@@ -704,11 +704,11 @@ Create Task model with:
 **Pattern Reference:** examples/database_model_pattern.py
 
 **Validation Gate:**
-```bash
-alembic revision --autogenerate -m "Add Task model"
-alembic upgrade head
-pytest tests/test_models.py::test_task_model -v
-```
+    ```bash
+    alembic revision --autogenerate -m "Add Task model"
+    alembic upgrade head
+    pytest tests/test_models.py::test_task_model -v
+    ```
 
 ### Step 2: Pydantic Schemas
 **File:** `app/schemas/task.py`
@@ -721,9 +721,9 @@ Create:
 **Pattern Reference:** examples/api_endpoint_pattern.py
 
 **Validation Gate:**
-```bash
-pytest tests/test_schemas.py::test_task_schemas -v
-```
+    ```bash
+    pytest tests/test_schemas.py::test_task_schemas -v
+    ```
 
 ### Step 3: CRUD Operations
 **File:** `app/crud/task.py`
@@ -738,10 +738,10 @@ Implement async functions:
 **Pattern Reference:** examples/database_operations.py
 
 **Validation Gate:**
-```bash
-pytest tests/test_crud_task.py -v --cov=app.crud.task --cov-report=term-missing
-# Target: >90% coverage
-```
+    ```bash
+    pytest tests/test_crud_task.py -v --cov=app.crud.task --cov-report=term-missing
+    # Target: >90% coverage
+    ```
 
 ### Step 4: API Endpoints
 **File:** `app/api/v1/endpoints/tasks.py`
@@ -756,10 +756,10 @@ Implement routes:
 **Pattern Reference:** examples/api_endpoint_pattern.py
 
 **Validation Gate:**
-```bash
-pytest tests/test_api_tasks.py -v
-# All endpoint tests must pass
-```
+    ```bash
+    pytest tests/test_api_tasks.py -v
+    # All endpoint tests must pass
+    ```
 
 ### Step 5: Integration Tests
 **File:** `tests/test_integration_tasks.py`
@@ -770,10 +770,10 @@ Test complete workflows:
 - Filtering and pagination
 
 **Validation Gate:**
-```bash
-pytest tests/test_integration_tasks.py -v --cov=app --cov-report=html
-# Target: 90%+ coverage
-```
+    ```bash
+    pytest tests/test_integration_tasks.py -v --cov=app --cov-report=html
+    # Target: 90%+ coverage
+    ```
 
 ## Confidence Score: 9/10
 
@@ -805,7 +805,7 @@ Review your generated PRP against this checklist:
 
 #### Step 7: Run Execution Command
 
-```
+```bash
 /execute-prp PRPs/task-management-api.md
 ```
 
@@ -821,7 +821,8 @@ Watch AI work:
 #### Step 8: Observe the Process
 
 You'll see output like:
-```
+
+```text
 ✓ Created Task model in app/models/task.py
   Running validation: alembic revision --autogenerate -m "Add Task model"
   ✓ Migration created successfully
@@ -1304,6 +1305,8 @@ Reference examples/api_endpoint_pattern.py for proper validation."
 2. Add the corrected pattern to examples/
 3. Update CLAUDE.md if it's a recurring issue
 
+Example CLAUDE.md addition:
+
 ```markdown
 ## CLAUDE.md addition:
 
@@ -1311,9 +1314,9 @@ Reference examples/api_endpoint_pattern.py for proper validation."
 - **Always** validate request bodies using Pydantic models
 - Missing required fields should return 400, not 500
 - Validation errors should return structured response:
-  ```json
-  {"detail": [{"field": "amount", "message": "Field required"}]}
-  ```
+    ```json
+    {"detail": [{"field": "amount", "message": "Field required"}]}
+    ```
 ```
 
 Now future features won't have this issue.
