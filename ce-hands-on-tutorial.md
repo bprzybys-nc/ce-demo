@@ -91,7 +91,12 @@ Think about:
 - Code style guides
 - Test specifications
 
-**Answer:** Context Engineering is like providing complete technical specifications, not just a user story.
+<details>
+  <summary><strong>Click to reveal answer</strong></summary>
+
+  **Answer:** Context Engineering is like providing complete technical specifications, not just a user story.
+
+</details>
 
 ### 1.3 The Four Pillars Deep Dive
 
