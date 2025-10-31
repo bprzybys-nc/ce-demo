@@ -1946,25 +1946,28 @@ Enhance sales report with:
 ### Starter Examples to Create
 
 **Essential Patterns (Create These First):**
-   - a) `examples/api_endpoint_pattern.py` - Basic REST endpoint
-   - b) `examples/database_model_pattern.py` - SQLAlchemy/ORM model
-   - c) `examples/test_pattern.py` - Unit test structure
-   - d) `examples/error_handling.py` - Exception handling
-   - e) `examples/async_pattern.py` - Async/await usage
+
+1. `examples/api_endpoint_pattern.py` - Basic REST endpoint
+2. `examples/database_model_pattern.py` - SQLAlchemy/ORM model
+3. `examples/test_pattern.py` - Unit test structure
+4. `examples/error_handling.py` - Exception handling
+5. `examples/async_pattern.py` - Async/await usage
 
 **Intermediate Patterns:**
-   - a) `examples/authentication.py` - Auth flow
-   - b) `examples/pagination.py` - Paginated responses
-   - c) `examples/external_api_client.py` - Third-party integration
-   - d) `examples/caching.py` - Cache strategy
-   - e) `examples/background_task.py` - Queue/async task
+
+6. `examples/authentication.py` - Auth flow
+7. `examples/pagination.py` - Paginated responses
+8. `examples/external_api_client.py` - Third-party integration
+9. `examples/caching.py` - Cache strategy
+10. `examples/background_task.py` - Queue/async task
 
 **Advanced Patterns:**
-   - a) `examples/complex_query.py` - Database optimization
-   - b) `examples/file_upload.py` - File handling
-   - c) `examples/websocket.py` - Real-time communication
-   - d) `examples/data_migration.py` - Schema changes
-   - e) `examples/monitoring.py` - Logging and metrics
+
+11. `examples/complex_query.py` - Database optimization
+12. `examples/file_upload.py` - File handling
+13. `examples/websocket.py` - Real-time communication
+14. `examples/data_migration.py` - Schema changes
+15. `examples/monitoring.py` - Logging and metrics
 
 ---
 
