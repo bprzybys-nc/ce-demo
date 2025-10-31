@@ -139,24 +139,29 @@ For a feature you want to build, what context would AI need?
 **Answer these questions** (answers at end of section):
 
 1. Context Engineering primarily focuses on:
-   a) Writing better prompts
-   b) Providing comprehensive information systematically
-   c) Using more powerful AI models
-   d) Writing more code comments
+   - a) Writing better prompts
+   - b) Providing comprehensive information systematically
+   - c) Using more powerful AI models
+   - d) Writing more code comments
 
 2. The validation loop in Context Engineering:
-   a) Runs once at the end
-   b) Only checks syntax
-   c) Automatically fixes failures until tests pass
-   d) Requires manual intervention
+   - a) Runs once at the end
+   - b) Only checks syntax
+   - c) Automatically fixes failures until tests pass
+   - d) Requires manual intervention
 
 3. Which component would contain "Always use TypeScript strict mode"?
-   a) INITIAL.md
-   b) PRP file
-   c) CLAUDE.md
-   d) examples/
+   - a) INITIAL.md
+   - b) PRP file
+   - c) CLAUDE.md
+   - d) examples/
 
-**Answers:** 1-b, 2-c, 3-c
+<details>
+  <summary><strong>Click to reveal answers</strong></summary>
+
+  **Answers:** 1-b, 2-c, 3-c
+
+</details>
 
 ---
 

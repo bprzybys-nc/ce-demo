@@ -86,9 +86,80 @@ code
 More text
 ```
 
-### 4. Code Block Validation Checklist
+### 4. Multiple-Choice Questions Format
+**ALWAYS format multiple-choice questions using indented markdown lists** for better readability.
+
+**Standard markdown doesn't support alphabetical lists (a, b, c) natively.** Use indented unordered lists with manual lettering.
+
+**Correct format:**
+```markdown
+1. Question text here?
+   - a) Option 1
+   - b) Option 2
+   - c) Option 3
+   - d) Option 4
+```
+
+**Alternative (without bullets):**
+```markdown
+1. Question text here?
+   a) Option 1
+   b) Option 2
+   c) Option 3
+   d) Option 4
+```
+
+**Rule:** Indent options with 3 spaces, use "- a)" format for best markdown compatibility.
+
+### 5. Collapsible/Spoiler Content (Details/Summary)
+**Use HTML `<details>` and `<summary>` tags for collapsible content.** This is the most compatible solution across platforms (GitHub, GitLab, most Markdown processors).
+
+**Format:**
+```html
+<details>
+  <summary><strong>Click to reveal spoiler</strong></summary>
+
+  Your hidden content here. You can use **any markdown** inside.
+
+</details>
+```
+
+**Key points:**
+- **Space after `<summary>` tag is critical** for proper markdown rendering
+- Works with images, code blocks, tables, and any markdown
+- Click to expand/collapse (not hover)
+- Works on GitHub, GitLab, VS Code preview, and most processors
+
+**Best use cases:**
+- Quiz/exercise answers (interactive learning)
+- Hints or solutions to problems
+- Optional deep-dive content
+- Lengthy supplementary material
+- Actual spoilers in content
+
+**Example:**
+```markdown
+Try the exercise first!
+
+<details>
+  <summary><strong>Click to reveal answer</strong></summary>
+
+  **Answer:** The correct approach is to use async/await.
+
+</details>
+```
+
+**Platform-specific alternatives:**
+- Discord: `||spoiler text||`
+- Reddit: `>!spoiler text!<`
+- Not needed for general markdown - use `<details>` for maximum compatibility
+
+### 6. Documentation Validation Checklist
 Before committing documentation:
 - [ ] All code blocks have language specifiers
 - [ ] No nested code blocks at same indentation (use 4-space indent)
 - [ ] Blank lines before and after all code blocks
 - [ ] Code blocks are properly closed (matching ``` pairs)
+- [ ] Multiple-choice questions use indented list format (3-space indent with "- a)" bullets)
+- [ ] Quiz/exercise answers wrapped in `<details><summary>` tags for interactive learning
+- [ ] Space after `<summary>` tag for markdown rendering (use 2-space indent inside `<details>`)
